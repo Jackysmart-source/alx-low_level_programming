@@ -1,19 +1,16 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: Use `putchar` function to print the alphabet in lowercase.
- * Return: 0
- */
+* main - print if the number is positive, zero, or negative
+* this program prints "programming is positive, zero, or negative
+* Return: 0
+*/
 int main(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}								}
-	putchar('\n');
-
-	return (0);
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+	putchar(ch);
+}
+putchar('\n');
+return (0);
 }
